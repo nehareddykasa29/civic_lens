@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Landing from './pages/Landing';
+import Login from './pages/Login';
 import CitizenHome from './pages/CitizenHome';
 import ReportIssue from './pages/ReportIssue';
 import MyReports from './pages/MyReports';
@@ -11,6 +12,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Landing />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/citizen" element={<CitizenHome />} />
         <Route path="/report" element={<ReportIssue />} />
         <Route path="/my-reports" element={<MyReports />} />
@@ -22,4 +24,3 @@ function App() {
 }
 
 export default App;
-

@@ -13,9 +13,11 @@
     "@google/generative-ai": "^0.24.1",
     "@react-google-maps/api": "^2.20.8",
     "firebase": "^12.15.0",
+    "leaflet": "^1.9.4",
     "lucide-react": "^1.21.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
+    "react-leaflet": "^5.0.0",
     "react-router-dom": "^7.18.0",
     "recharts": "^3.9.0"
   },
